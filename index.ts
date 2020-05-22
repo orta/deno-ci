@@ -1,3 +1,3 @@
 export const shouty = (input: string) => {
-  return input.toUpperCase()
+  return input.toLowerCase()
 }
