@@ -1,0 +1,10 @@
+name: "My CI"
+on: "push"
+
+jobs:
+  ci:
+    steps:
+      - uses: actions/checkout@v2
+      - uses: denolib/setup-deno@master
+      - runs: "deno test"
+
